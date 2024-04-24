@@ -40,7 +40,7 @@ const App = () => {
                                 <ExpenseTotal />
                             </div>
                         }
-                        
+
                         {
                             /* CurrencyForm component */
                             <div className='col-sm'>

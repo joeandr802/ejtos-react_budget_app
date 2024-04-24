@@ -12,9 +12,9 @@ const CurrencyForm = () => {
             payload: newCurrency,
         });
     }
-    
+
     return (
-        <DropdownButton title={<div>Change Currency: {currency}</div>}>
+        <DropdownButton variant="secondary" title={<div>Change Currency: {currency}</div>}>
             <Dropdown.Item as="button"><div onClick={event => changeCurrency("$")}>$ Dollar</div></Dropdown.Item>
             <Dropdown.Item as="button"><div onClick={event => changeCurrency("£")}>£ Pound</div></Dropdown.Item>
             <Dropdown.Item as="button"><div onClick={event => changeCurrency("€")}>€ Euro</div></Dropdown.Item>
