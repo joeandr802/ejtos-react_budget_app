@@ -7,8 +7,8 @@ const ExpenseList = () => {
     
     return (
         <table className='table'>
-              <thead className="thead-light">
-            <tr>
+          <thead className="thead-light">
+            <tr style={{fontSize: '18px'}}>
               <th scope="col">Department</th>
               <th scope="col">Allocated Budget</th>
               <th scope="col">Increase by 10</th>
@@ -16,11 +16,11 @@ const ExpenseList = () => {
               <th scope="col">Reset to {currency}0</th>
             </tr>
           </thead>
-            <tbody>
-            {expenses.map((expense) => (
-                <ExpenseItem id={expense.id} key={expense.id} name={expense.name} cost={expense.cost} />
-            ))}
-            </tbody>
+          <tbody>
+          {expenses.map((expense) => (
+              <ExpenseItem id={expense.id} key={expense.id} name={expense.name} cost={expense.cost} />
+          ))}
+          </tbody>
         </table>
     );
 };

@@ -14,11 +14,11 @@ const CurrencyForm = () => {
     }
 
     return (
-        <DropdownButton variant="secondary" title={<div>Change Currency: {currency}</div>}>
-            <Dropdown.Item as="button"><div onClick={event => changeCurrency("$")}>$ Dollar</div></Dropdown.Item>
-            <Dropdown.Item as="button"><div onClick={event => changeCurrency("£")}>£ Pound</div></Dropdown.Item>
-            <Dropdown.Item as="button"><div onClick={event => changeCurrency("€")}>€ Euro</div></Dropdown.Item>
-            <Dropdown.Item as="button"><div onClick={event => changeCurrency("₹")}>₹ Rupee</div></Dropdown.Item>
+        <DropdownButton variant="secondary" title={<div style={{fontSize: '18px'}}>Change Currency: {currency}</div>}>
+            <Dropdown.Item as="button"><div style={{fontSize: '18px'}} onClick={event => changeCurrency("$")}>$ Dollar</div></Dropdown.Item>
+            <Dropdown.Item as="button"><div style={{fontSize: '18px'}} onClick={event => changeCurrency("£")}>£ Pound</div></Dropdown.Item>
+            <Dropdown.Item as="button"><div style={{fontSize: '18px'}} onClick={event => changeCurrency("€")}>€ Euro</div></Dropdown.Item>
+            <Dropdown.Item as="button"><div style={{fontSize: '18px'}} onClick={event => changeCurrency("₹")}>₹ Rupee</div></Dropdown.Item>
         </DropdownButton>
     );
 }
