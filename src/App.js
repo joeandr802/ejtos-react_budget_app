@@ -18,7 +18,7 @@ const App = () => {
     return (
         <AppProvider>
             <div className='container'>
-                <h1 className='mt-3'>Company's Budget Allocation</h1>
+                <h1 className='mt-3' style={{textAlign: 'center'}}>Company's Budget Allocation</h1>
                     <div className='row mt-3'>
                         {
                             /* Add Budget component here */
@@ -48,7 +48,7 @@ const App = () => {
                             </div>
                         }  
 
-                        <h3 className='mt-3'>Allocation</h3>
+                        <h3 className='mt-3'>Allocation by Department</h3>
                         {
                             /* Add ExpenseList component here */
                             <div className='row '>
