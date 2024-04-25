@@ -44,8 +44,8 @@ const AllocationForm = (props) => {
                 <select className="custom-select" id="inputGroupSelect01" onChange={(event) => setName(event.target.value)}>
                     <option defaultValue>Choose...</option>
                     <option value="Marketing" name="marketing">Marketing</option>
-                    <option value="Sales" name="sales">Sales</option>
                     <option value="Finance" name="finance">Finance</option>
+                    <option value="Sales" name="sales">Sales</option>
                     <option value="Human Resources" name="hr">Human Resources</option>
                     <option value="IT" name="it">IT</option>
                     {/*Admin option commented out because there is no on-screen option for it*/}
