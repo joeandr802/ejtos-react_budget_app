@@ -15,24 +15,24 @@ const App = () => {
     return (
         <AppProvider>
             <div className='container'>
-                <h1 className='mt-3' style={{textAlign: 'center'}}>Company's Budget Allocation</h1>
+                <h1 className='mt-3' style={{textAlign: 'center'}}>Company Budget Allocation</h1>
                 <hr></hr>
                 <div className='row mt-3'>
                     {
                         /* Budget component */
-                        <div className='col-sm'>
+                        <div className='col-sm' style={{textAlign: 'center'}}>
                             <Budget />
                         </div>
                     }        
                     {
                         /* Remaining component */
-                        <div className='col-sm'>
+                        <div className='col-sm' style={{textAlign: 'center'}}>
                             <Remaining />
                         </div>
                     }         
                     {
                         /* ExpenseTotal component */
-                        <div className='col-sm'>
+                        <div className='col-sm' style={{textAlign: 'center'}}>
                             <ExpenseTotal />
                         </div>
                     }
